@@ -29,7 +29,7 @@ function setup() {
 
   //song plays from the beginning
   mySong.loop();
-  mySong.setVolume(0.5);
+  mySong.setVolume(0.025);
 
   //squared paper sheet texture for the background
   var lato = width / 50;
