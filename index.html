@@ -1,13 +1,83 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
-    <style> body {padding: 0; margin: 0;} </style>
-    <script src="p5.min.js"></script>
-    <!-- <script src="addons/p5.sound.min.js"></script> -->
-    <script src="sketch.js"></script>
-  </head>
-  <body>
-  </body>
+
+<head>
+  <title>🐁 my-little-canvas.org</title>
+  <meta charset="utf-8">
+  <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+  <style>
+    #titolo {
+      font-family: 'Brush Script MT';
+      color: #FD6670;
+      font-size: 30pt;
+      margin-bottom: 10px;
+      margin-top: 0px;
+      margin-left: 50px;
+    }
+
+    .sottotitolo {
+      font-family: 'Monaco';
+      color: #FEC477;
+      font-size: 12pt;
+      margin: 0pt;
+      margin-left: 50px;
+    }
+
+    #due {
+      margin-bottom: 30px;
+    }
+
+    #tre {
+      font-style: italic;
+    }
+
+    #quattro {
+      font-style: italic;
+    }
+
+    p {
+      font-family: 'Monaco';
+      color: #FD6670;
+      font-size: 9pt;
+      margin-top: 0px;
+      margin-left: 50px;
+
+    }
+
+    #dropzone {
+      padding: 40px;
+      font-size: 10pt;
+      border-style: dashed;
+      width: 10%;
+      margin-bottom: 50px;
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+
+    img {
+      margin-left: 1200px;
+      margin-bottom: -150px;
+      width: 120px;
+      height: 120px;
+
+    }
+  </style>
+  <script src="p5.min.js"></script>
+  <script src="p5.sound.min.js"></script>
+  <script src="sketch.js"></script>
+</head>
+
+<body>
+
+  <img src="./assets/smile.png" alt="<<non serve tanto carica sicuro>> (cit.)">
+  <h1 id="titolo">🐁 welcome to my-little-canvas.org</h1>
+  <p id="uno" class="sottotitolo">just in case you woke up feeling </p>
+  <p id="due" class="sottotitolo">a little bit like Leonardo Da Vinci.</p>
+  <p id="tre" class="sottotitolo">press the 'A' key and</p>
+  <p id="quattro" class="sottotitolo">unleash your talent (lmao)</p>
+  <p id="dropzone">drag your image file in here, please</p>
+
+
+</body>
+
 </html>
